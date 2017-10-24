@@ -30,4 +30,4 @@ For simulation purpose, here Optocoupler 4N35 has been used instead of IC MOC 78
 ![Final Circuit on Arduino Board](Schematics/Sch3.png)
 
 # Code for controlling MOC-7811
-In this project, only optocoupler i.e. MOC 7811 is being controlled by the Arduino board. Arduino code is available ![here](code/smoke.ino).
+In this project, only optocoupler i.e. MOC 7811 is being controlled for the Arduino board. Arduino code is available ![here](code/smoke.ino).

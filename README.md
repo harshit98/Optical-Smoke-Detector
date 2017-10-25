@@ -1,7 +1,7 @@
 ![Arduino-Open Source](Schematics/Banner.png)
 
 
-## Optical-Smoke-Detector
+### Optical-Smoke-Detector
 
 
 Optical smoke detector is a project implemented on the Arduino board works using the light scatter principle.

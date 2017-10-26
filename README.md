@@ -8,7 +8,7 @@ Optical smoke detector is a project implemented on the Arduino board works using
 
 **An Optical Smoke Detector is a device that senses smoke, typically as an indicator of fire.**
 
-### Components Used
+#### Components Used
 * 10K potentiometer.
 * IC MOC7811.
 * IC LM358.

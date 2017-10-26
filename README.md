@@ -12,7 +12,7 @@ Optical smoke detector is a project implemented on the Arduino board works using
 * 10K potentiometer.
 * IC MOC7811.
 * IC LM358.
-* Resistors: 100 ohms, 680 ohms, 33K, 10K and 220 ohms.
+* Resistors:   100 ohms, 680 ohms, 33K, 10K and 220 ohms.
 * Two transistors BC547A.
 * 1 LED.
 * 1 electric buzzer.

@@ -27,6 +27,7 @@ those optical smoke detector uses MOC 7811 which is an *optocoupler*. The MOC-78
 
 ## Schematic of Optocoupler with Arduino Board
 For simulation purpose, here Optocoupler 4N35 has been used instead of IC MOC 7811. Although, working of both the components are same.
+#greatwork
 
 ![Optocoupler connection with Arduino Board](Schematics/Sch2.png)
 

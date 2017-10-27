@@ -1,4 +1,4 @@
-![Arduino-Open Source](Schematics/Banner.png)
+![Arduino-Open Source](Schematics/Banner.png )
 
 
 ### Optical-Smoke-Detector

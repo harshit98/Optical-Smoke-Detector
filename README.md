@@ -30,7 +30,7 @@ For simulation purpose, here Optocoupler 4N35 has been used instead of IC MOC 78
 
 ![Optocoupler connection with Arduino Board](Schematics/Sch2.png)
 
-## Final Implementation Of The Circuit
+## #Final Implementation Of The Circuit
 
 ![Final Circuit on Arduino Board](Schematics/Sch3.png)
 

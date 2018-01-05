@@ -1,5 +1,5 @@
 int inputPin = 1; // select the input pin for the interrupter
-int val = 0; // variable to store the value coming from the sensor
+int val = 1; // variable to store the value coming from the sensor
 
 void setup()
 {

@@ -1,14 +1,32 @@
-int inputPin = 1; // select the input pin for the interrupter
-int val = 0; // variable to store the value coming from the sensor
+int redLed = 12;
+int greenLed = 11;
+int buzzer = 10;
+int smokeA0 = A5;
+// Your threshold value
+int sensorThres = 400;
 
-void setup()
-{
-    Serial.begin(9600);
+void setup() {
+  pinMode(redLed, OUTPUT);
+  pinMode(greenLed, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+  pinMode(smokeA0, INPUT);
+  Serial.begin(9600);
 }
 
-void loop()
-{
-    val = analogRead(inputPin); // read the value from the sensor
-    Serial.println(val); // print the sensor value to the serial monitor
-    delay(50);
+void loop() {
+  int analogSensor = analogRead(smokeA0);
+
+  Serial.print("Pin A0: ");
+  Serial.println(analogSensor);
+  // Checks if it has reached the threshold value
+  if (analogSensor > sensorThres) {
+    digitalWrite(redLed, HIGH);
+    digitalWrite(greenLed, LOW);
+    tone(buzzer, 1000, 200);
+  } else {
+    digitalWrite(redLed, LOW);
+    digitalWrite(greenLed, HIGH);
+    noTone(buzzer);
+  }
+  delay(100);
 }

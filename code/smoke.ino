@@ -1,7 +1,16 @@
+// Threshold value is the magnitude or intensity that must be
+// exceeded for a certain phenomenon too occur. We're keeping it
+// sensorThres = 400. The value 400 has been choosen and tested 
+// due to reason how the circuit will behave during favourable condition.
+// If smoke detection value will be greater than threshold then
+// alarm will be activated. If smoke detection value will be less than
+// threshold then alarm will remain silent.
+
 int redLed = 12;
 int greenLed = 11;
 int buzzer = 10;
 int smokeA0 = A5;
+
 // Your threshold value
 int sensorThres = 400;
 

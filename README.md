@@ -40,4 +40,4 @@ In this project, only optocoupler i.e. MOC 7811 is being controlled for the Ardu
 
 ## Facing issues with Arduino?
 
-Get started with the official documentation of Arduino available [here](https://www.arduino.cc/en/Tutorial/HomePage) with build-in examples
+Get started with Arduino tutorials available [here](https://www.youtube.com/watch?v=fCxzA9_kg6s&list=PLA567CE235D39FA84 along with wide explanation and examples.
